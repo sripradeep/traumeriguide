@@ -20,25 +20,26 @@ DINING_TIP = ("<b>Elote Cafe and Canyon Echo don't take phone reservations"
     "ChocolaTree and Vespa Cafe (both near Whole Foods) are a 5–10 minute walk from the casitas — "
     "no car needed.")
 DINING = [
-    {"name":"Mariposa Latin Inspired Grill","tag":"Fine Dining · Latin American","time":"~5 min drive",
+    {"name":"Mariposa Latin Inspired Grill","img":"https://upload.wikimedia.org/wikipedia/commons/f/fc/Ceviche_del_Per%C3%BA.jpg","tag":"Fine Dining · Latin American","time":"~5 min drive",
      "desc":"Chef Lisa Dahl's flagship room perched above the red rocks — Latin-inspired steaks, ceviche, and a sunset view that rivals the food. Reservations strongly recommended.",
      "tags":["Red Rock Views","Latin Cuisine","Reservations Recommended"]},
-    {"name":"Elote Cafe","tag":"Regional Mexican","time":"~5 min drive",
-     "desc":"A Sedona institution serving inventive, deeply flavorful regional Mexican dishes (the smoked-pork elote is the namesake order). No reservations — arrive at 5pm open or expect a wait.","tags":["Local Favorite","No Reservations","Bold Flavors"]},
-    {"name":"Cress on Oak Creek","tag":"Fine Dining · Creekside","time":"~10 min drive",
+    {"name":"Elote Cafe","img":"https://upload.wikimedia.org/wikipedia/commons/c/cb/Elote_as%C3%A1ndose.jpg","tag":"Regional Mexican","time":"~5 min drive",
+     "desc":"A Sedona institution serving inventive, deeply flavorful regional Mexican dishes (the smoked-pork elote is the namesake order). No reservations — arrive at 5pm open or expect a wait.",
+     "tags":["Local Favorite","No Reservations","Bold Flavors"]},
+    {"name":"Cress on Oak Creek","img":"https://upload.wikimedia.org/wikipedia/commons/f/fb/DZ6_2628_Cozy_candlelit_dinner_for_two_elegant_Thai_restaurant_setting_with_twinkling_lights_and_a_delicate_orchid_centerpiece.jpg","tag":"Fine Dining · Creekside","time":"~10 min drive",
      "desc":"L'Auberge de Sedona's creekside restaurant — candlelit tables right on Oak Creek, refined seasonal New American cooking, and one of the most romantic settings in town.","tags":["Creekside","Romantic","Upscale"]},
-    {"name":"Canyon Echo","tag":"New Southwest · Indigenous Ingredients","time":"~12 min drive",
+    {"name":"Canyon Echo","img":"https://upload.wikimedia.org/wikipedia/commons/6/6a/Fall_colors_in_Boynton_Canyon.jpg","tag":"New Southwest · Indigenous Ingredients","time":"~12 min drive",
      "desc":"At the base of Boynton Canyon, this is currently the hardest reservation in the Verde Valley — a menu built on tepary beans, prickly pear, and mesquite flour, with standouts like blue-corn-crusted trout and slow-roasted bison rib.","tags":["Book Ahead","Indigenous Ingredients","Boynton Canyon"]},
-    {"name":"The Golden Goose","tag":"Steak & Seafood","time":"~8 min drive",
+    {"name":"The Golden Goose","img":"https://upload.wikimedia.org/wikipedia/commons/0/04/Steak_at_restaurant_Vltava.jpg","tag":"Steak & Seafood","time":"~8 min drive",
      "desc":"A longtime local awards favorite — Best Steak, Best Seafood, Best Prime Rib, and Best Dessert in Sedona reader polls, in a cozy dining-room setting.","tags":["Local Awards","Steakhouse","Date Night"]},
-    {"name":"Hideaway House","tag":"Italian · Patio Views","time":"~9 min drive",
+    {"name":"Hideaway House","img":"https://upload.wikimedia.org/wikipedia/commons/6/65/Pork_tagliatelle_pasta_dish_at_restaurant_in_Rome%2C_Italy.jpg","tag":"Italian · Patio Views","time":"~9 min drive",
      "desc":"Italian comfort food on a patio overlooking Oak Creek — one of the best sunset-dinner views in Sedona, and a longtime favorite with locals.","tags":["Italian","Patio","Oak Creek Views"]},
-    {"name":"Coffee Pot Restaurant","tag":"Breakfast · Diner","time":"~6 min drive",
+    {"name":"Coffee Pot Restaurant","img":"https://upload.wikimedia.org/wikipedia/commons/b/be/Liat_Portal_for_Foodie_Disorder_-_Israeli_Breakfast_Plate_with_Herb_Omelet_Sandwich.jpg","tag":"Breakfast · Diner","time":"~6 min drive",
      "desc":"A Sedona breakfast legend sitting in the shadow of Coffee Pot Rock — the menu famously offers 101 different omelet combinations.","tags":["Breakfast","101 Omelets","Local Classic"]},
-    {"name":"ChocolaTree Organic Eatery","tag":"Vegan & Vegetarian","time":"Walkable","desc":"A community-run vegan/vegetarian cafe with a big boho patio, counter service, and house-made chocolate. One of the few true walk-to spots from the casitas.","tags":["Walkable","Vegan","Outdoor Patio"]},
-    {"name":"Vino di Sedona","tag":"Wine Bar · Tapas","time":"~7 min drive",
+    {"name":"ChocolaTree Organic Eatery","img":"https://upload.wikimedia.org/wikipedia/commons/6/62/Tasty_Buddha_Bowl_with_Falafel_-_Dyke_Road_Park_Cafe_2025-05-09.jpg","tag":"Vegan & Vegetarian","time":"Walkable","desc":"A community-run vegan/vegetarian cafe with a big boho patio, counter service, and house-made chocolate. One of the few true walk-to spots from the casitas.","tags":["Walkable","Vegan","Outdoor Patio"]},
+    {"name":"Vino di Sedona","img":"https://upload.wikimedia.org/wikipedia/commons/8/8d/Yerevan_Wine_Days_Tasting_Package.jpg","tag":"Wine Bar · Tapas","time":"~7 min drive",
      "desc":"Family-owned tasting room pouring from a list of nearly 1,000 bottles, with tapas-style small plates and live music on weekends.","tags":["Wine Bar","Live Music","Tapas"]},
-    {"name":"Mesa Grill Sedona","tag":"American · Sunday Brunch","time":"~5 min drive",
+    {"name":"Mesa Grill Sedona","img":"https://upload.wikimedia.org/wikipedia/commons/0/04/Burger_%2B_French_Fries%2C_Tamrah_Restaurant_%28Voi%29%2C_2025_%2801%29.jpg","tag":"American · Sunday Brunch","time":"~5 min drive",
      "desc":"A diverse, good-value menu — steak, burgers, seafood, salads — with great views and a popular Sunday brunch. Book a day ahead in season or be ready to wait for a walk-in table.","tags":["Sunday Brunch","Good Value","Family Friendly"]},
 ]
 
@@ -52,25 +53,25 @@ HIKES_TIP = ("<b>Start early.</b> Devil's Bridge, Cathedral Rock, and Soldier Pa
     "live difficulty ratings, water-crossing conditions, and closure alerts — and carry more water "
     "than you think you'll need; the high desert air is deceptively dry.")
 HIKES = [
-    {"name":"Devil's Bridge","tag":"Easy–Moderate · 4.2 mi RT","time":"~12 min drive",
+    {"name":"Devil's Bridge","img":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Devil%27s_Bridge_Trail%2C_Sedona%2C_Arizona_-_panoramio_%2838%29.jpg","tag":"Easy–Moderate · 4.2 mi RT","time":"~12 min drive",
      "desc":"Sedona's most photographed trail — a natural sandstone arch you can walk out onto. Extremely popular; the rough access road needs high clearance or add 1.6 mi by parking at Dry Creek Vista.","tags":["Iconic","Crowded","High-Clearance Road"]},
-    {"name":"Cathedral Rock Trail","tag":"Moderate–Strenuous · 1.2 mi RT","time":"~10 min drive",
+    {"name":"Cathedral Rock Trail","img":"https://upload.wikimedia.org/wikipedia/commons/b/b0/Cathedral_Rock_-_Sedona_AZ-1.jpg","tag":"Moderate–Strenuous · 1.2 mi RT","time":"~10 min drive",
      "desc":"Short but steep, with hand-over-foot slickrock scrambling near the top — and one of the most rewarding 360° views in Sedona. Vortex site. Red Rock Pass required at Back O'Beyond trailhead.","tags":["Vortex Site","Scrambling","Big Views"]},
-    {"name":"Bell Rock & Courthouse Butte Loop","tag":"Easy–Moderate · 3.9 mi loop","time":"~15 min drive",
+    {"name":"Bell Rock & Courthouse Butte Loop","img":"https://upload.wikimedia.org/wikipedia/commons/e/e6/Sedona_Arizona-27527-6.jpg","tag":"Easy–Moderate · 3.9 mi loop","time":"~15 min drive",
      "desc":"A mostly flat loop around two of Sedona's signature formations, with the option to scramble partway up Bell Rock itself. Family-friendly and a vortex site.","tags":["Vortex Site","Family Friendly","Flat Loop Option"]},
-    {"name":"Boynton Canyon Trail","tag":"Moderate · 6.1 mi RT","time":"~15 min drive",
+    {"name":"Boynton Canyon Trail","img":"https://upload.wikimedia.org/wikipedia/commons/6/6a/Fall_colors_in_Boynton_Canyon.jpg","tag":"Moderate · 6.1 mi RT","time":"~15 min drive",
      "desc":"A red-rock box canyon hike past the Kachina Woman formation, sacred to the Yavapai and Hopi. One of Sedona's four major vortex sites, with a peaceful, shaded second half.","tags":["Vortex Site","Sacred Site","Shaded"]},
-    {"name":"West Fork Oak Creek Trail","tag":"Easy · 6 mi RT","time":"~25 min drive",
+    {"name":"West Fork Oak Creek Trail","img":"https://upload.wikimedia.org/wikipedia/commons/d/de/Man_Hiking_Along_The_West_Fork_Trail_In_Sedona_AZ.jpg","tag":"Easy · 6 mi RT","time":"~25 min drive",
      "desc":"Sedona's most beloved canyon walk — multiple creek crossings beneath towering cliff walls. Cool and shaded even in summer; a $12 day-use fee applies at the trailhead.","tags":["Shaded","Creek Crossings","Day-Use Fee"]},
-    {"name":"Bear Mountain Trail","tag":"Strenuous · 5 mi RT, 1,800 ft gain","time":"~18 min drive",
+    {"name":"Bear Mountain Trail","img":"https://upload.wikimedia.org/wikipedia/commons/9/96/Bear_Mountain%2C_Sedona%2C_Arizona_-_panoramio_%2845%29.jpg","tag":"Strenuous · 5 mi RT, 1,800 ft gain","time":"~18 min drive",
      "desc":"Steep switchbacks lead to sweeping summit views toward the San Francisco Peaks. One of the toughest — and most rewarding — day hikes in the area.","tags":["Strenuous","Summit Views","Switchbacks"]},
-    {"name":"Soldier Pass Trail","tag":"Moderate · 4.5 mi RT","time":"~10 min drive",
+    {"name":"Soldier Pass Trail","img":"https://upload.wikimedia.org/wikipedia/commons/0/07/Devil%27s_Kitchen_Sedona.jpg","tag":"Moderate · 4.5 mi RT","time":"~10 min drive",
      "desc":"Passes the Seven Sacred Pools and the Devil's Kitchen sinkhole. Trailhead parking is extremely limited — the Soldier Pass trolley/shuttle is the easiest way in during busy season.","tags":["Sinkhole","Limited Parking","Shuttle Recommended"]},
-    {"name":"Doe Mountain Trail","tag":"Moderate · ~1 mi to rim + mesa loop","time":"~14 min drive",
+    {"name":"Doe Mountain Trail","img":"https://upload.wikimedia.org/wikipedia/commons/1/10/Aerie_Trail%2C_Sedona%2C_Arizona_-_panoramio_%285%29.jpg","tag":"Moderate · ~1 mi to rim + mesa loop","time":"~14 min drive",
      "desc":"A short, lung-busting set of switchbacks opens onto a flat mesa-top loop with wide-open views — a quieter sunset alternative to the bigger-name trails.","tags":["Sunset Spot","Less Crowded","Mesa-Top Loop"]},
-    {"name":"Airport Mesa Loop","tag":"Easy · 3.2 mi loop","time":"~8 min drive",
+    {"name":"Airport Mesa Loop","img":"https://upload.wikimedia.org/wikipedia/commons/c/c5/Sedona_Arizona_1.jpg","tag":"Easy · 3.2 mi loop","time":"~8 min drive",
      "desc":"An easy loop trail right next to the Airport Mesa vortex and overlook — sweeping views with comparatively little elevation gain.","tags":["Vortex Site","Easy","Sunset Views"]},
-    {"name":"Vultee Arch Trail","tag":"Moderate · 3.6 mi RT","time":"~20 min drive (4WD road)",
+    {"name":"Vultee Arch Trail","img":"https://upload.wikimedia.org/wikipedia/commons/e/ec/Sterling_Pass_Trail_To_Vultee_Arch_Trail%2C_Sedona%2C_Arizona%2C_Coconino_County_-_panoramio.jpg","tag":"Moderate · 3.6 mi RT","time":"~20 min drive (4WD road)",
      "desc":"A quieter alternative to Devil's Bridge — a natural sandstone arch reached via a shaded canyon trail off Sterling Pass Road. The access road requires a high-clearance vehicle.","tags":["Quiet Alternative","Natural Arch","4WD Access"]},
 ]
 
@@ -84,17 +85,17 @@ SPIRITUAL_TIP = ("<b>Vortex etiquette:</b> stay on marked trails, never remove r
     "Indigenous communities and the National Forest prohibits open flame and disturbing natural features. "
     "Sunrise and sunset are the quietest, most powerful times to visit any of the four vortexes.")
 SPIRITUAL = [
-    {"name":"Airport Mesa Vortex","tag":"Masculine Energy","time":"~8 min drive",
+    {"name":"Airport Mesa Vortex","img":"https://upload.wikimedia.org/wikipedia/commons/c/c5/Sedona_Arizona_1.jpg","tag":"Masculine Energy","time":"~8 min drive",
      "desc":"The most accessible of the four vortexes — a short walk from the parking area to an overlook said to carry strong, motivating, 'masculine' energy. Also Sedona's best sunset and stargazing spot.","tags":["Easy Access","Sunset","Stargazing"]},
-    {"name":"Cathedral Rock Vortex","tag":"Feminine Energy","time":"~10 min drive",
+    {"name":"Cathedral Rock Vortex","img":"https://upload.wikimedia.org/wikipedia/commons/a/af/Cathedral_Rock%2C_Sedona_%2846131198634%29.jpg","tag":"Feminine Energy","time":"~10 min drive",
      "desc":"Reached via a steep scramble partway up Cathedral Rock, this vortex is associated with nurturing, emotional-healing 'feminine' energy and some of the most photographed views in Arizona.","tags":["Emotional Healing","Scramble Required","Iconic Views"]},
-    {"name":"Bell Rock Vortex","tag":"Balanced Energy","time":"~15 min drive",
+    {"name":"Bell Rock Vortex","img":"https://upload.wikimedia.org/wikipedia/commons/e/e6/Sedona_Arizona-27527-6.jpg","tag":"Balanced Energy","time":"~15 min drive",
      "desc":"Considered both masculine and feminine in nature — a balanced site that's also the easiest vortex to reach, with a flat approach and the option to climb partway up the formation.","tags":["Balanced","Easiest Access","Family Friendly"]},
-    {"name":"Boynton Canyon Vortex","tag":"Harmonizing Energy","time":"~15 min drive",
+    {"name":"Boynton Canyon Vortex","img":"https://upload.wikimedia.org/wikipedia/commons/6/6a/Fall_colors_in_Boynton_Canyon.jpg","tag":"Harmonizing Energy","time":"~15 min drive",
      "desc":"A peaceful, balanced energy site inside a red-rock box canyon near the Kachina Woman formation — sacred to the Yavapai and Hopi, who used the canyon for ceremony.","tags":["Sacred Site","Peaceful","Shaded Canyon"]},
-    {"name":"Chapel of the Holy Cross","tag":"Interfaith Chapel","time":"~10 min drive",
+    {"name":"Chapel of the Holy Cross","img":"https://upload.wikimedia.org/wikipedia/commons/a/af/2021_Chapel_of_the_Holy_Cross_from_right_below.jpg","tag":"Interfaith Chapel","time":"~10 min drive",
      "desc":"A striking 1956 chapel built directly into a red-rock butte, open to all faiths. Free admission, open daily — many visitors describe a noticeable calm inside, vortex or not.","tags":["Free Entry","Architecture","Open Daily"]},
-    {"name":"Amitabha Stupa & Peace Park","tag":"Buddhist Meditation Site","time":"~12 min drive",
+    {"name":"Amitabha Stupa & Peace Park","img":"https://upload.wikimedia.org/wikipedia/commons/0/0c/Amitabha_Chorten_in_Sedona_-_538813921.jpg","tag":"Buddhist Meditation Site","time":"~12 min drive",
      "desc":"A hillside Buddhist stupa and walking meditation trail tucked into a quiet residential canyon — prayer wheels, a labyrinth, and benches for sitting. Free, donation-based, open dawn to dusk.","tags":["Meditation","Free / Donation","Quiet"]},
 ]
 
@@ -107,21 +108,21 @@ POI_TIP = ("<b>Slide Rock State Park</b> fills its parking lot by mid-morning in
     "reservation through the Forest Service — book a few days ahead. If you're visiting Tuzigoot or "
     "Montezuma Castle too, an <b>America the Beautiful annual pass</b> ($80) pays for itself fast.")
 POI = [
-    {"name":"Red Rock State Park","tag":"286-Acre Nature Preserve","time":"~15 min drive",
+    {"name":"Red Rock State Park","img":"https://upload.wikimedia.org/wikipedia/commons/a/a3/Red_Rock_State_Park%2C_AZ.jpg","tag":"286-Acre Nature Preserve","time":"~15 min drive",
      "desc":"A quieter, less crowded park than the famous trailheads — five miles of interconnecting trails along Oak Creek, ranger-led programs, and excellent birding.","tags":["Nature Preserve","Ranger Programs","Oak Creek"]},
-    {"name":"Slide Rock State Park","tag":"Natural Waterslide","time":"~25 min drive",
+    {"name":"Slide Rock State Park","img":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Slide_Rock%2C_Oak_Creek_Canyon%2C_AZ_9-15_%2821721214731%29.jpg","tag":"Natural Waterslide","time":"~25 min drive",
      "desc":"A natural rock waterslide in Oak Creek Canyon set in a historic apple orchard — Sedona's classic summer swimming hole. Arrives at capacity early on hot days.","tags":["Swimming","Historic Orchard","Summer Favorite"]},
-    {"name":"Crescent Moon Picnic Site (Red Rock Crossing)","tag":"Classic Photo Spot","time":"~12 min drive",
+    {"name":"Crescent Moon Picnic Site (Red Rock Crossing)","img":"https://upload.wikimedia.org/wikipedia/commons/b/b8/Crescent_Moon_Ranch_%28October_24%2C_2017%29_%2837926047431%29.jpg","tag":"Classic Photo Spot","time":"~12 min drive",
      "desc":"The postcard view of Cathedral Rock reflected in Oak Creek — shallow wading, shaded picnic areas, and arguably the most photographed angle in Sedona.","tags":["Photo Spot","Picnic Area","Wading"]},
-    {"name":"Tlaquepaque Arts & Shopping Village","tag":"Arts Village","time":"~8 min drive",
+    {"name":"Tlaquepaque Arts & Shopping Village","img":"https://upload.wikimedia.org/wikipedia/commons/5/55/Sedona_Tlaquepaque_%2836369258821%29.jpg","tag":"Arts Village","time":"~8 min drive",
      "desc":"A meticulously recreated Spanish-colonial village of courtyards and fountains, packed with 40+ galleries, boutiques, and restaurants. As much a sight to see as a place to shop.","tags":["Arts Village","Architecture","Dining"]},
-    {"name":"Palatki & Honanki Heritage Sites","tag":"Ancient Cliff Dwellings","time":"~25 min drive",
+    {"name":"Palatki & Honanki Heritage Sites","img":"https://upload.wikimedia.org/wikipedia/commons/5/5f/Palatki_doorway_Sedona_Arizona.jpg","tag":"Ancient Cliff Dwellings","time":"~25 min drive",
      "desc":"Sinagua cliff dwellings and some of the best-preserved rock art in the Southwest, tucked into red-rock alcoves. Free, advance reservation required through the Coconino National Forest.","tags":["Reservation Required","Rock Art","History"]},
-    {"name":"Pink Jeep & Off-Road Tours","tag":"Signature Sedona Experience","time":"Depart Uptown",
+    {"name":"Pink Jeep & Off-Road Tours","img":"https://upload.wikimedia.org/wikipedia/commons/3/36/Pink_Jeep_Sedona_4863.jpg","tag":"Signature Sedona Experience","time":"Depart Uptown",
      "desc":"The classic Sedona thrill ride — guided open-air Jeep tours bouncing over slickrock backroads to viewpoints most rental cars can't reach.","tags":["Guided Tour","Off-Road","Family Friendly"]},
-    {"name":"Sunrise Hot Air Balloon Ride","tag":"Sunrise Flight","time":"Pickup from Sedona",
+    {"name":"Sunrise Hot Air Balloon Ride","img":"https://upload.wikimedia.org/wikipedia/commons/5/5e/Hot-air_balloon%2C_Wanderlust_Balloons%2C_Lake_Havasu_City%2C_Arizona%2C_USA.jpg","tag":"Sunrise Flight","time":"Pickup from Sedona",
      "desc":"Drift silently over the red rocks at sunrise — several local operators run dawn launches with champagne toasts on landing. Book a few days ahead, especially in spring and fall.","tags":["Sunrise","Bucket List","Book Ahead"]},
-    {"name":"Tuzigoot National Monument","tag":"Sinagua Pueblo Ruins","time":"~30 min drive",
+    {"name":"Tuzigoot National Monument","img":"https://upload.wikimedia.org/wikipedia/commons/e/e5/Tuzigoot_December_2013_1.JPG","tag":"Sinagua Pueblo Ruins","time":"~30 min drive",
      "desc":"A 1,000-year-old hilltop pueblo of 110 rooms overlooking the Verde River floodplain — one of the best-preserved prehistoric sites in the Southwest, easily paired with Jerome.","tags":["History","Easy Walk","Pairs with Jerome"]},
 ]
 
@@ -134,16 +135,16 @@ DRIVES_TIP = ("<b>Schnebly Hill Road</b> requires a high-clearance (ideally 4WD)
     "big payoff with zero off-roading, drive the <b>Red Rock Scenic Byway (SR-179)</b> at golden hour, "
     "when the rock formations turn deep red-orange.")
 DRIVES = [
-    {"name":"Red Rock Scenic Byway (SR-179)","tag":"All-American Road · 7.5 mi","time":"South of town",
+    {"name":"Red Rock Scenic Byway (SR-179)","img":"https://upload.wikimedia.org/wikipedia/commons/b/b2/Sedona_AZ_%288405081725%29.jpg","tag":"All-American Road · 7.5 mi","time":"South of town",
      "desc":"Arizona's only 'All-American Road' — a designation given to just a few dozen routes nationwide. Passes Bell Rock, Courthouse Butte, Cathedral Rock turnoffs, and the Chapel of the Holy Cross.","tags":["All-American Road","Easy Drive","Multiple Viewpoints"]},
-    {"name":"Oak Creek Canyon (SR-89A North)","tag":"Switchback Canyon Drive · 14 mi","time":"North of town",
+    {"name":"Oak Creek Canyon (SR-89A North)","img":"https://upload.wikimedia.org/wikipedia/commons/a/ac/Oak_Creek_Canyon_02.jpg","tag":"Switchback Canyon Drive · 14 mi","time":"North of town",
      "desc":"A dramatic climb beneath towering canyon walls toward Flagstaff, with hairpin turns, creekside pull-offs, and the famous Oak Creek Vista overlook. Stunning in fall foliage season.","tags":["Fall Foliage","Switchbacks","Creekside Pull-offs"]},
-    {"name":"Schnebly Hill Road","tag":"High-Clearance 4WD Road","time":"Departs Uptown",
+    {"name":"Schnebly Hill Road","img":"https://upload.wikimedia.org/wikipedia/commons/6/64/Sedona_Arizona.jpg","tag":"High-Clearance 4WD Road","time":"Departs Uptown",
      "desc":"A rugged unpaved climb from Uptown Sedona up to Schnebly Hill Vista and Munds Mountain — one of the most sweeping panoramic overlooks in the region. High-clearance vehicle required.","tags":["4WD Required","Panoramic Overlook","Adventurous"]},
-    {"name":"Dry Creek Road & Boynton Pass Loop","tag":"Backroad Loop","time":"West Sedona","desc":"A quieter back way to the Devil's Bridge and Boynton Canyon trailheads, winding past red-rock formations with a fraction of the SR-179 traffic.","tags":["Less Traffic","Trailhead Access","Red Rock Views"]},
-    {"name":"Red Rock Loop Road","tag":"8-Mile Loop","time":"West of Uptown",
+    {"name":"Dry Creek Road & Boynton Pass Loop","img":"https://upload.wikimedia.org/wikipedia/commons/b/ba/Dry_Creek_Road%2C_Sedona%2C_United_States_%28Unsplash%29.jpg","tag":"Backroad Loop","time":"West Sedona","desc":"A quieter back way to the Devil's Bridge and Boynton Canyon trailheads, winding past red-rock formations with a fraction of the SR-179 traffic.","tags":["Less Traffic","Trailhead Access","Red Rock Views"]},
+    {"name":"Red Rock Loop Road","img":"https://upload.wikimedia.org/wikipedia/commons/1/1d/View_from_Red_Rock_Loop_road_%283879564434%29.jpg","tag":"8-Mile Loop","time":"West of Uptown",
      "desc":"A relaxed loop through high-desert neighborhoods and open red-rock country, passing the entrance to Red Rock State Park along the way.","tags":["Relaxed Pace","8 Miles","Passes State Park"]},
-    {"name":"Jerome & Mingus Mountain Drive (SR-89A South)","tag":"Mountain Switchbacks","time":"~40 min drive",
+    {"name":"Jerome & Mingus Mountain Drive (SR-89A South)","img":"https://upload.wikimedia.org/wikipedia/commons/7/74/Jerome_Ghost_Town%2C_Arizona%2C_USA_-_2024_30.jpg","tag":"Mountain Switchbacks","time":"~40 min drive",
      "desc":"A climbing mountain road to the historic ghost-town-turned-arts-colony of Jerome at 5,000 ft, with wide Verde Valley overlooks on the way up.","tags":["Ghost Town","Mountain Overlooks","Day Trip"]},
 ]
 
@@ -155,17 +156,17 @@ SHOPPING_TIP = ("<b>Parking in Uptown</b> fills up fast midday — the free lots
     "the Sedona Visitor Center are usually the easiest bet, and it's a short, scenic walk from there. "
     "Tlaquepaque has its own free parking lot just off SR-179.")
 SHOPPING = [
-    {"name":"Tlaquepaque Arts & Shopping Village","tag":"40+ Galleries & Boutiques","time":"~8 min drive",
+    {"name":"Tlaquepaque Arts & Shopping Village","img":"https://upload.wikimedia.org/wikipedia/commons/9/9f/Sedona_Tlaquepaque_%2836369262001%29.jpg","tag":"40+ Galleries & Boutiques","time":"~8 min drive",
      "desc":"Sedona's signature shopping destination — a recreated Spanish-colonial village of cobbled courtyards and fountains, home to high-end art galleries, jewelry, and a working pottery studio.","tags":["Art Galleries","Architecture","Restaurants Onsite"]},
-    {"name":"Uptown Sedona","tag":"Historic Walkable District","time":"~10 min drive",
+    {"name":"Uptown Sedona","img":"https://upload.wikimedia.org/wikipedia/commons/8/86/Deer_Gathering_in_Uptown%2C_Sedona%2C_Arizona.jpg","tag":"Historic Walkable District","time":"~10 min drive",
      "desc":"The original heart of town — Southwestern boutiques, jewelry, t-shirt shops, and several crystal stores lining a walkable strip with red-rock views at every turn.","tags":["Walkable","Souvenirs","Crystal Shops"]},
-    {"name":"Sedona Crystal Vortex","tag":"Healing Crystals & Readings","time":"Uptown (3 locations)",
+    {"name":"Sedona Crystal Vortex","img":"https://upload.wikimedia.org/wikipedia/commons/1/14/Quartz%2C_Tibet.jpg","tag":"Healing Crystals & Readings","time":"Uptown (3 locations)",
      "desc":"Sedona's best-known crystal shop, with three Uptown locations offering crystal jewelry, aura photography, and psychic readings alongside a huge raw-crystal selection.","tags":["Crystals","Aura Photos","Readings"]},
-    {"name":"Hillside Sedona","tag":"Open-Air Gallery Complex","time":"~9 min drive",
+    {"name":"Hillside Sedona","img":"https://upload.wikimedia.org/wikipedia/commons/8/8f/Uptown%2C_Sedona%2C_AZ_7-30-13a_%289546440907%29.jpg","tag":"Open-Air Gallery Complex","time":"~9 min drive",
      "desc":"A multi-level open-air complex of galleries and boutiques just south of Tlaquepaque, with patio dining and some of the best red-rock views from any shopping center in town.","tags":["Galleries","Patio Dining","Red Rock Views"]},
-    {"name":"Garland's Navajo Rugs","tag":"Native American Art","time":"~25 min drive (Oak Creek Canyon)",
+    {"name":"Garland's Navajo Rugs","img":"https://upload.wikimedia.org/wikipedia/commons/2/24/RUG-WEAVING_AT_HUBBARD_TRADING_POST._THIS_WAS_THE_FIRST_SUCH_POST_ON_THE_NAVAJO_RESERVATION_-_NARA_-_544360.jpg","tag":"Native American Art","time":"~25 min drive (Oak Creek Canyon)",
      "desc":"One of the Southwest's most respected dealers of antique and contemporary Navajo rugs, set in a historic Oak Creek Canyon trading post — worth the drive even just to browse.","tags":["Navajo Rugs","Native American Art","Oak Creek Canyon"]},
-    {"name":"Sedona Farmers Market","tag":"Seasonal · Fridays","time":"Posse Grounds Park",
+    {"name":"Sedona Farmers Market","img":"https://upload.wikimedia.org/wikipedia/commons/f/f0/Farmer%27s_Market_Produce_%28Unsplash%29.jpg","tag":"Seasonal · Fridays","time":"Posse Grounds Park",
      "desc":"A seasonal Friday-morning market with local produce, baked goods, and handmade crafts — a relaxed way to spend an hour before a hike.","tags":["Seasonal","Local Produce","Friday Mornings"]},
 ]
 
