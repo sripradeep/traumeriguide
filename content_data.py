@@ -211,6 +211,13 @@ CASITA = {
         "Sleeper sofa & smart TV","Kitchenette with coffee nook","Front patio seating","Side patio dining area",
         "In-unit washer/dryer","High-speed WiFi","Free parking (1 spot)","Pet friendly (with approval)"],
     "rooms_note": "1 queen bed (with a twin bunk above — upper bunk not recommended for sleeping) plus a sleeper sofa in the living room.",
+    "photos": [
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4MjA1MjUzMjkyOTA4MjM1NA==/original/322dcd9c-a460-4a1b-92de-258159199cc4.jpeg?im_w=1440", "Traumeri Casita exterior"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4MjA1MjUzMjkyOTA4MjM1NA==/original/d818c5af-fb22-44e9-b802-e8aae62e1bfb.jpeg?im_w=1440", "Living room"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4MjA1MjUzMjkyOTA4MjM1NA==/original/a71d581c-ee22-4e17-ad41-51e6e0d5d69f.jpeg?im_w=1440", "Private hot tub"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4MjA1MjUzMjkyOTA4MjM1NA==/original/9addbf9e-3ebc-42ab-9ee9-43671a1622b1.jpeg?im_w=1440", "Bedroom"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ4MjA1MjUzMjkyOTA4MjM1NA==/original/f66d6687-8f8e-4cf8-9d88-aa1db793d1a6.jpeg?im_w=1440", "Kitchen"),
+    ],
 }
 
 CASA = {
@@ -222,7 +229,7 @@ CASA = {
         "a fully remodeled 2-bedroom retreat with a king bedroom, a queen bedroom, and a sleeper sofa, "
         "comfortably sleeping up to six. The paved outdoor living area in the middle of the property anchors "
         "the stay: a hot tub, a fireplace, a BBQ grill, and a long dining table set against red rock and "
-        "mountain views, with two dedicated parking spots just steps from the door."),
+                "mountain views, with two dedicated parking spots just steps from the door."),
     "stats": [("Bedrooms","2"), ("Bathrooms","2"), ("Max Guests","6"),
               ("To Uptown Sedona","~10 min"), ("To Tlaquepaque","~8 min"), ("To Devil's Bridge","~12 min")],
     "checkin": "4:00 PM", "checkout": "11:00 AM",
@@ -232,4 +239,11 @@ CASA = {
         "Fully remodeled kitchen with coffee nook","Dining seats up to 6","Front patio seating","In-unit washer/dryer",
         "High-speed WiFi","Free parking (2 spots)","Pet friendly (with approval)"],
     "rooms_note": "1 king bedroom, 1 queen bedroom, plus a sleeper sofa in the living room — comfortably sleeps up to 6.",
+    "photos": [
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ3NjQwODgyNzUzODIzNzEzNQ==/original/43e0a778-5d90-4fd0-9310-42700ad99d88.jpeg?im_w=1440", "Traumeri Casa exterior"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ3NjQwODgyNzUzODIzNzEzNQ==/original/8ea11539-f9f7-4f28-8037-215eea4c2a53.jpeg?im_w=1440", "Living room"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ3NjQwODgyNzUzODIzNzEzNQ==/original/aaf065f1-c3d2-405b-8638-1440b4edfab8.jpeg?im_w=1440", "Private hot tub & patio"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ3NjQwODgyNzUzODIzNzEzNQ==/original/e9ba9029-95fd-4056-aa0f-acd777cfed7b.jpeg?im_w=1440", "Bedroom"),
+        ("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ3NjQwODgyNzUzODIzNzEzNQ==/original/1b2b63d5-0825-4899-b727-047395939421.jpeg?im_w=1440", "Kitchen"),
+    ],
 }

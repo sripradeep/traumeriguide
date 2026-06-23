@@ -37,10 +37,11 @@ def card_grid(items, img_dir):
         slug = "".join(ch if ch.isalnum() else "-" for ch in slug)
         slug = "-".join(filter(None, slug.split("-")))
         tags = "".join(f'<span class="tag">{t}</span>' for t in it["tags"])
+        img_src = it.get("img") or f"../assets/img/sedona/{img_dir}/{slug}.jpg"
         cards.append(f'''<div class="card">
         <div class="ph" style="border-radius:0;aspect-ratio:16/11;">
           <div class="ph-fallback">{c.ICONS['camera']}<div>{it['name']}</div></div>
-          <img src="../assets/img/sedona/{img_dir}/{slug}.jpg" alt="{it['name']}" loading="lazy">
+          <img src="{img_src}" alt="{it['name']}" loading="lazy">
         </div>
         <div class="badge">{c.ICONS['pin']}<span>{it['time']}</span></div>
         <div class="card-body">
@@ -91,6 +92,7 @@ def footer():
       <p>{c.ADDRESS}</p>
       <p>Questions about your stay? Email <a href="mailto:veedu.stays@gmail.com">veedu.stays@gmail.com</a></p>
       <p class="legal">An independently published guest guide for Traumeri Casita &amp; Traumeri Casa. Not affiliated with Airbnb. Hours, prices, and details for third-party businesses are approximate and may change — please confirm directly before visiting. Updated June 2026.</p>
+      <p class="legal">Local-guide photos courtesy of Wikimedia Commons contributors, used under their respective free licenses.</p>
     </div>
   </footer>'''
 
@@ -98,13 +100,16 @@ def property_home_section(p):
     stats = "".join(f'<div class="stat-box"><div class="label">{l}</div><div class="value">{v}</div></div>' for l, v in p["stats"])
     amenities = "".join(f"<li>{a}</li>" for a in p["amenities"])
     rules = "".join(f'<div class="rule-card"><h4>{r["h"]}</h4><p>{r["p"]}</p></div>' for r in c.PROPERTY_RULES)
-    photos = "".join([
-        ph(f"../assets/img/{p['slug']}/exterior.jpg", "Add exterior.jpg", f"{p['name']} exterior"),
-        ph(f"../assets/img/{p['slug']}/living-room.jpg", "Add living-room.jpg", f"{p['name']} living room"),
-        ph(f"../assets/img/{p['slug']}/hot-tub.jpg", "Add hot-tub.jpg", f"{p['name']} hot tub"),
-        ph(f"../assets/img/{p['slug']}/bedroom.jpg", "Add bedroom.jpg", f"{p['name']} bedroom"),
-        ph(f"../assets/img/{p['slug']}/kitchen.jpg", "Add kitchen.jpg", f"{p['name']} kitchen"),
-    ])
+    if p.get("photos"):
+        photos = "".join(ph(url, label, label) for url, label in p["photos"])
+    else:
+        photos = "".join([
+            ph(f"../assets/img/{p['slug']}/exterior.jpg", "Add exterior.jpg", f"{p['name']} exterior"),
+            ph(f"../assets/img/{p['slug']}/living-room.jpg", "Add living-room.jpg", f"{p['name']} living room"),
+            ph(f"../assets/img/{p['slug']}/hot-tub.jpg", "Add hot-tub.jpg", f"{p['name']} hot tub"),
+            ph(f"../assets/img/{p['slug']}/bedroom.jpg", "Add bedroom.jpg", f"{p['name']} bedroom"),
+            ph(f"../assets/img/{p['slug']}/kitchen.jpg", "Add kitchen.jpg", f"{p['name']} kitchen"),
+        ])
     return f'''<section id="stay" class="section">
     <div class="wrap">
       <div class="section-head">
@@ -229,7 +234,7 @@ def build_landing():
     ])
     html = page_head("Traumeri Sedona | Guest Guide", "Guest guide hub for Traumeri Casita and Traumeri Casa in Sedona, Arizona.").replace('href="../assets', 'href="assets') + "\n" + body
     with open(os.path.join(ROOT, "index.html"), "w") as f:
-        f.write(html)
+             f.write(html)
     print("wrote index.html", len(html), "bytes")
 
 if __name__ == "__main__":
